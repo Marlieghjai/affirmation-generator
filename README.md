@@ -22,4 +22,4 @@ The application uses JavaScript arrays to store affirmations. When a user clicks
 This project was built to demonstrate foundational web development skills including DOM manipulation, event handling, and working with user input.
 
 ## Live Site
-(Add your GitHub Pages link here)
+https://marlieghjai.github.io/affirmation-generator/
