@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">An affirmation a day takes the pain away!</h1>
+      <div class="card">
+        <div></div>
+        <label>Choose your vibe:</label>
+        <select id="themeSelector">
+          <option value="light">Light ☀️</option>
+          <option value="dark">Dark 🌙</option>
+          <option value="sunset">Sunset 🌅</option>
+        </select>
+
+        <div id="affirmationSection"></div>
+        <button id="generate">Day time strength</button>
+
+        <div id="nightAffirmationsSection"></div>
+        <button id="nightAfiirmationbutton">Night love</button>
+
+        <label>Create your own powerful words:</label>
+
+        <select id="affirmationDropDown">
+          <option>Day time power</option>
+          <option>Night time love</option>
+        </select>
+
+        <input id="diyAffirmationInput" placeholder="Day affirmations here!" />
+
+        <button id="addAffirmation">+ ADD</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

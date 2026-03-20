@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+  background: linear-gradient(to bottom, #cce3ff, #f5f9ff);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.title {
+  color: #4d8de0;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  
+
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#affirmationSection,
+#nightAffirmationsSection {
+  border: 1px solid #d0e3ff;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  min-height: 40px;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #6aa9ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4d8de0;
+}
+
+#diyAffirmationInput {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#affirmationDropDown {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* 📱 MOBILE FRIENDLY */
+@media (max-width: 500px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
+body.light {
+  background-image: url("daybackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+body.dark {
+  background: linear-gradient(to bottom, #1e1e2f, #3a3a5c);
+  
+}
+
+body.sunset {
+  background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+}
